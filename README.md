@@ -38,25 +38,11 @@ Hardware – PCs, Cyclone II , USB flasher
 Developed by: SAHANA G
 RegisterNumber: 212225040354
 ```
-module booleanexpression (
-    input A, B, C, D,
-    output F
-);
-
-wire nB, nD, term1, term2, term3;
-
-// NOT gates
-not (nB, B);
-not (nD, D);
-
-// AND terms
-and (term1, nB, nD); // B'D'
-and (term2, A, C);   // AC
-and (term3, B, D);   // BD
-
-// OR the terms
-or (F, term1, term2, term3);
-
+module exp2(a,b,c,d,f1,w,x,y,z,f2);
+input a,b,c,d,w,x,y,z;
+output f1,f2;
+assign f1=((~b&~d)| (~a&b&d)| (a&b&~c));
+assign f2=((~y&z)|(x&y)|(w&y));
 endmodule
 ```
 
