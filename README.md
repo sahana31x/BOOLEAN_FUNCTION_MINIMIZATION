@@ -49,10 +49,9 @@ endmodule
 **RTL realization**
 
 **Output:**
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e91c339-1868-4a6a-86e0-79a180adc3a0" />
+<img width="1920" height="1080" alt="Screenshot (272)" src="https://github.com/user-attachments/assets/ea8e5b3b-6e1c-47b4-bacc-94054bd67ae2" />
 
 **RTL**
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/98ab0285-e7e2-4265-8948-93968d0ab494" />
 
 **Timing Diagram**
 
