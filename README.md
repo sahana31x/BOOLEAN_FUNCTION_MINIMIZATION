@@ -38,12 +38,20 @@ Hardware – PCs, Cyclone II , USB flasher
 Developed by: SAHANA G
 RegisterNumber: 212225040354
 ```
-module exp2(a,b,c,d,f1,w,x,y,z,f2);
-input a,b,c,d,w,x,y,z;
-output f1,f2;
-assign f1=((~b&~d)| (~a&b&d)| (a&b&~c));
-assign f2=((~y&z)|(x&y)|(w&y));
+F(A,B,C,D)=AB+CD+AD
+
+module boolean_function_4var (
+    input  wire A,
+    input  wire B,
+    input  wire C,
+    input  wire D,
+    output wire F
+);
+
+assign F = (~A & B) | (C & D) | (A & ~D);
+
 endmodule
+
 ```
 
 **RTL realization**
