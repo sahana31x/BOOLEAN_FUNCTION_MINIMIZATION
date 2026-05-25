@@ -52,12 +52,10 @@ endmodule
 <img width="1920" height="1080" alt="Screenshot (272)" src="https://github.com/user-attachments/assets/ea8e5b3b-6e1c-47b4-bacc-94054bd67ae2" />
 
 **RTL**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b03a8569-d1db-4347-9782-11b7d585faba" />
 
-**Timing Diagram**
 
 **Result:**
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
-
-Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
